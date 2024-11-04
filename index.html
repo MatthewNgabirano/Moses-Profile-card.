@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+</head>
+<body>
+    <div class="profile-card">
+        <div class="image">
+            <img src="./image.JPG" alt="Profile image" class="profile-img">
+        </div>
+
+        <div class="text-data">
+            <span class="name">Moses Lubwama</span>
+            <span class="job">Youtuber & Sound Engineer</span>
+        </div>
+
+        <div class="media-buttons">
+            <a href="https://www.instagram.com/" class="link">
+                <i class='bx bxl-instagram' style="color: #991e57;"></i>
+            </a>
+            <a href="https://youtube.com/@frugalway-r3t" class="link">
+                <i class='bx bxl-youtube' style="color: #690303;"></i>
+            </a>
+            <a href="https://www.facebook.com/" class="link">
+                <i class='bx bxl-facebook' style="color:#1d0894"></i>
+            </a>
+            <a href="https://wa.me/1234567890" target="_blank">
+                <i class='bx bxl-whatsapp' style="color: #1ab10c;"></i>
+            </a>
+        </div>
+
+        <div class="buttons">
+            <span class="button" id="subscribe-button">
+            <a href="https://www.youtube.com/@frugalway-r3t" target="_blank" class="button">Subscribe</a>
+            </span>
+            <span class="button" id="message-button">Message</span>
+        </div>
+
+        <div class="analytics">
+            <a href="#" class="data share-count" onclick="shareAction()"><i class='bx bxs-share'></i> 20</a>
+        <a href="#" class="data heart-count" onclick="loveAction()"><i class='bx bx-heart'></i> 30</a>
+            <a href="#" class="data like-count" onclick="likeAction()"><i class='bx bx-like'></i> 40</a>
+        </div>
+        
+        </div>
+    
+
+<script src="index.js"></script>
+</body>
+</html>
